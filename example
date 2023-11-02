@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Első óra példák</title>
+</head>
+<body>
+    <!-- Content of your webpage goes here -->
+
+    <script>
+                let name = "Anna";
+        console.log(name); // Kiírja: Anna
+
+        name = "Péter";
+        console.log(name); // Kiírja: Péter
+
+
+        const PI = 3.14159;
+        console.log(PI); // Kiírja: 3.14159
+
+        // PI = 3.14; // Ezt nem tehetjük meg, hibát kapnánk, mert a PI egy konstans.
+
+        let nameJoe = "John Doe";
+        let greeting = 'Hello!';
+
+        let wholeNumber = 10;
+        let decimalNumber = 3.14;
+
+        let isInStock = true;
+        let isRegistered = false;
+
+        let person = {
+            name: "John",
+            age: 30,
+            city: "New York"
+        };
+
+
+        let someVariable = null;
+
+        let variable;
+        console.log(variable); // outputs: undefined
+
+
+
+
+        // műveletek 
+
+        // Összeadás és kivonás
+        let a = 7;
+        let b = 3;
+        let addResult = a + b;  // 10
+        let subtractResult = a - b;  // 4
+
+        // Szorzás és osztás
+        let x = 6;
+        let y = 2;
+        let multiplyResult = x * y;  // 12
+        let divideResult = x / y;  // 3
+
+        // Maradékos osztás
+        let m = 13;
+        let n = 5;
+        let modResult = m % n;  // 3
+
+        // Műveleti sorrend
+        let combinedResult = 5 + 3 * 2;        // 11, mert a szorzás előbb történik
+        let bracketedResult = (5 + 3) * 2;     // 16, mert a zárójelbeli művelet elsőbbséget élvez
+
+
+        alert('Üdvözöljük a weboldalunkon!');
+
+        let userName = prompt('Mi a neved?');
+        alert('Üdvözöljük, ' + userName + '!');
+
+        console.log('Ez a szöveg a böngésző konzoljában jelenik meg.');
+        console.log(userName);
+
+
+        alert('Hírek: Ma 20% kedvezmény minden termékre!');
+
+          
+        let age = prompt('Hány éves vagy?');
+        if (parseInt(age) >= 18) {
+            console.log('A játék elérhető az Ön számára.');
+        } else {
+            console.log('Sajnáljuk, a játék csak 18 éven felülieknek elérhető.');
+        }
+
+
+
+        let num1 = 5;
+        let num2 = 10;
+        let sum = num1 + num2;
+        console.log('A két szám összege: ' + sum);
+
+    </script>
+</body>
+</html>
